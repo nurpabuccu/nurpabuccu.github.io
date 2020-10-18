@@ -27,7 +27,7 @@ It is MD5 hash, so you can decrypt it [online](https://hashes.com/en/decrypt/has
 
 ### Address Book - 50p
 
-![addressbook]({{site.url}}/assets/images/hacktober/addressbook.png)
+![addressbook](../assets/images/hacktober/addressbook.png)
 
 I just opened the sql file with text editor and search for the luciafer. I got lucky with lucia. There was a user LUCIA and her email address.
     
@@ -56,25 +56,25 @@ Now search for email like 'luc' from users table.
 SELECT * FROM users WHERE email LIKE '%luc%';
 ```
 
-![lucia]({{site.url}}/assets/images/hacktober/lucia.png)
+![lucia](../assets/images/hacktober/lucia.png)
 
 **_flag{luc1afer.h4vr0n@shallowgraveu.com}_**
 
 ### Null and Void - 25p
 
-![nullandvoid]({{site.url}}/assets/images/hacktober/nullandvoid.png)
+![nullandvoid](../assets/images/hacktober/nullandvoid.png)
 
 We need to find the field accepts NULL values and command to show the information. Quickly I look at the create table description in the sql file. middle column has DEFAULT NULL attribute. For command first I tried SELECT but it wasn't the right choice, so I tried SHOW instead.
 
 Another way is to show in terminal.
 
-![middle]({{site.url}}/assets/images/hacktober/middle.png)
+![middle](../assets/images/hacktober/middle.png)
 
 **_flag{middle, SHOW}_**
 
 ### Body Count - 25p
 
-![bodycount]({{site.url}}/assets/images/hacktober/bodycount.png)
+![bodycount](../assets/images/hacktober/bodycount.png)
 
 We need to count users in Shallow Grave University.
 
@@ -82,13 +82,13 @@ We need to count users in Shallow Grave University.
 SELECT COUNT(*) FROM users;
 ```
 
-![usercount]({{site.url}}/assets/images/hacktober/usercount.png)
+![usercount](../assets/images/hacktober/usercount.png)
 
 **_flag{900}_**
 
 ### Calisota - 75p
 
-![calisota]({{site.url}}/assets/images/hacktober/calisota.png)
+![calisota](../assets/images/hacktober/calisota.png)
 
 We need to find California and Minnesota state_id's and count users.
 
@@ -98,15 +98,15 @@ SELECT * FROM states WHERE state_full="California" OR state_full="Minnesota";
 SELECT COUNT(*) FROM users WHERE state_id=6 OR state_id=28;
 ```
 
-![calmin]({{site.url}}/assets/images/hacktober/calmin.png)
+![calmin](../assets/images/hacktober/calmin.png)
 
-![countstate]({{site.url}}/assets/images/hacktober/countstate.png)
+![countstate](../assets/images/hacktober/countstate.png)
 
 **_flag{select count(*) from users where state_id=6 or state_id=28;}_**
 
 ### 90s Kid - 150p
 
-![90skids]({{site.url}}/assets/images/hacktober/90skids.png)
+![90skids](../assets/images/hacktober/90skids.png)
 
 Here is the query for number of kids in born October 90s.
 
@@ -114,13 +114,13 @@ Here is the query for number of kids in born October 90s.
 SELECT COUNT(*) FROM users WHERE dob LIKE '199%-10-%';
 ```
 
-![dobcount]({{site.url}}/assets/images/hacktober/dobcount.png)
+![dobcount](../assets/images/hacktober/dobcount.png)
 
 **_flag{32}_**
 
 ### Jigsaw - 325p
 
-![jigsaw]({{site.url}}/assets/images/hacktober/jigsaw.png)
+![jigsaw](../assets/images/hacktober/jigsaw.png)
 
 I wrote regex that satisfies the requirements. 
 
@@ -128,7 +128,7 @@ I wrote regex that satisfies the requirements.
 SELECT * FROM users WHERE last REGEXP '^[KRI][KRI]....[E-N]$';
 ```
 
-![jigsawsql]({{site.url}}/assets/images/hacktober/jigsawsql.png)
+![jigsawsql](../assets/images/hacktober/jigsawsql.png)
 
 Here is the user which last name is KRYSIAK.
 
