@@ -17,7 +17,7 @@ We have a sql file out.db. When I see the file type in terminal it was SQLite 3.
 
 As we see there are some passwords belongs to users. spookyboi's id is 8. I searched **59dea36d05aacaa547de42e9956678e7** on google and find some hash-password list on github. There it is our spookyboi's password.
 
-![sqlite]({{site.url}}/assets/images/hacktober/sqlite.png)
+![sqlite](../assets/images/hacktober/sqlite.png)
 
     59dea36d05aacaa547de42e9956678e7:zxcvbnm
 
