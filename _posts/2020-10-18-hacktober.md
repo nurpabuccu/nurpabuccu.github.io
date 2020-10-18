@@ -11,7 +11,7 @@ Hacktober CTF is an event that organized by Cyber Hacktics. I participate with m
 
 ### Past Demons - 30p
 
-![pastdemons]({{site.url}}/assets/images/hacktober/pastdemons.png)
+![pastdemons](https://{{site.url}}/assets/images/hacktober/pastdemons.png)
 
 We have a sql file out.db. When I see the file type in terminal it was SQLite 3.x database. So I opened it with sqlite3.
 
