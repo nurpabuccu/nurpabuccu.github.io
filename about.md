@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: archive
 titles:
   # @start locale config
   en      : &EN       About
