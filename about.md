@@ -1,5 +1,9 @@
 ---
+<<<<<<< HEAD
 layout: archive
+=======
+layout: page
+>>>>>>> 91fd64f41c8ec32d7f9536edd1c9dc0431e756c5
 titles:
   # @start locale config
   en      : &EN       About
