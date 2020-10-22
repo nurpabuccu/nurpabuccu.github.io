@@ -5,7 +5,7 @@ permalink: /page/hacktober.html
 key: page-single
 ---
 
-Hacktober CTF is an event that organized by Cyber Hacktics. I participate with my friends batcain and hackerbecker as Numinious Episcopate. We solved 51 challenges in SQL, Programming, Steganography, Cryptography, OSINT, Forensics, Traffic Analysis, Linux and Web Exploitation categories. I'll be showing some of them right now.
+Hacktober CTF is an event that organized by Cyber Hacktics. I participated with [@batcain](https://github.com/batcain) and [@hackerbecker](https://github.com/ebubekirtrkr) as Numinious Episcopate. We solved 51 challenges in SQL, Programming, Steganography, Cryptography, OSINT, Forensics, Traffic Analysis, Linux and Web Exploitation categories. I'll be showing some of them right now.
 
 ## SQL
 
