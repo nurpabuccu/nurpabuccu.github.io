@@ -1,7 +1,6 @@
 ---
 layout: article
 title: Hacktober CTF 2020
-permalink: /page/hacktober.html
 key: page-single
 ---
 
