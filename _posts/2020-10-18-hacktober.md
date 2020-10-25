@@ -185,7 +185,7 @@ for i in range(1,501):
 
 ### Stairway To Hell
 
-![stairwaytohell](../assets/images/hacktober/stairwaytohell.png)
+<img src="../assets/images/hacktober/stairwaytohell.png" width="400">
 
 Write code to build a staircase but put it in one line -__-
 
@@ -237,7 +237,7 @@ It was watering hole attack.
 
 ### Amcaching In
 
-![amcachein](../assets/images/hacktober/amcachein.png)
+<img src="../assets/images/hacktober/amcachein.png" width="400">
 
 I used Eric Zimmerman's AmcacheParser tool.
 
