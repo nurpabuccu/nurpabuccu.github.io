@@ -90,6 +90,12 @@ It is a method of adding a message to a new frequency within the frequency of th
 
 One of the disadvantages of this method; This is because when a new frequency is added to the carrier file, it can be heard in the audio file, especially if this frequency is in the 20-20.000 Mhz range. In addition, as the frequency is added throughout the entire audio file, the stego-medium file may be corrupted after cracking and compression.
 
+#### Echo Hiding
+
+In the Echo hiding technique, hidden data is embed by adding echo to the discrete audio signal. One bit of message can be added if an echo is generated from the original sound. Before starting encryption, the original signal is divided into blocks. The three parameters of the echo are changed to add the data. Amplitude (amplitude), decay rate and offset (delay) delay. These values are set below the threshold value of the human ear.
+
+The disadvantage of this method is that the presence of data may be exposed if the latency is long. In addition, stego-medium is vulnerable to operations such as clipping and compression.
+
 ### References
 • Huriye Özdemir, Nisan-Mayıs 2018, "Veri Gizleme Sanatı: Steganography", Arkakapı Dergi 2. Sayı, Sayfa 23-29  
 • M. I. Khalil, Ekim 2011, "Image Steganography: Hiding Short Audio Messages Within Digital Images"  
