@@ -98,11 +98,6 @@ Echo hiding tekniğinde gizli veri ayrık ses sinyaline yankı eklenerek gömül
 
 Bu yöntemin dezavantajı gecikme süresinin uzun olması durumunda verinin varlığının açığa çıkabilir olmasıdır. Ayrıca stego-medium da kırpma, sıkıştırma gibi işlemlere karşı savunmasızdır.
 
-### Yazarlar
-batcain - [github.com/batcain](https://github.com/batcain)  
-Bersun - [github.com/rverdoc](https://github.com/Rverdoc)  
-Nur Pabuççu - [github.com/nurpabuccu](https://github.com/nurpabuccu)  
-
 ### Kaynakça
 • Huriye Özdemir, Nisan-Mayıs 2018, "Veri Gizleme Sanatı: Steganography", Arkakapı Dergi 2. Sayı, Sayfa 23-29  
 • M. I. Khalil, Ekim 2011, "Image Steganography: Hiding Short Audio Messages Within Digital Images"  
