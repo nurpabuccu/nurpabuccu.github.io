@@ -6,8 +6,6 @@ key: page-single
 
 Merhabalar. [@batcain](https://github.com/batcain) ve [Bersun](https://github.com/Rverdoc) ile birlikte MDISEC topluluğu adına Steganografi konulu bir makale yazdık. Topluluğun diğer makalelerine [buradan](https://github.com/mdisec/topluluk-makale) ulaşabilirsiniz.
 
-# Steganografi
-
 Steganografi en basit tanımıyla veri gizleme işlemidir. Bu işlemde  temel amaç verinin üçüncü partilerin dikkatini çekmeden mesajı ulaştırmak istenen kişiye iletmektir. 
 
 Çoğunlukla neden kriptografi yerine steganografi kullanmalıyız sorusu sorulmaktadır. Kriptografi yönteminde mesaj şifrelenir ve şifrelenmiş mesajı yalnızca alıcı çözebilir. Asıl amaç bir mesajın içeriğini korumaktır. Ancak bir mesaj şifrelendiğinde şifrelenmiş mesajı gören üçüncü parti kişiler bir mesajın varlığını anlayabilirler, çeşitli tekniklerle mesajı kırmaları mümkün olabilir. Steganografi için temel amaç, alıcı hariç kimselerin mesajın varlığından haberdar olmamasıdır. Yani steganografi methodu görüntüyü herkesin görebileceği ancak mesajın varlığını anlayamayacağı şekilde saklar. Steganografi temel olarak insan bakış açısını sömürmeyi amaçlar.
