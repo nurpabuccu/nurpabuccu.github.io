@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Steganography
+title: Steganography - en
 key: page-single
 ---
 
