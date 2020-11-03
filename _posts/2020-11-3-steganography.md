@@ -4,7 +4,7 @@ title: Steganography - en
 key: page-single
 ---
 
-I wrote this article with [@batcain](https://github.com/batcain) and [Bersun](https://github.com/Rverdoc) for MDISEC community. You can find more articles in [github](https://github.com/mdisec/topluluk-makale).
+I wrote this article with [@batcain](https://github.com/batcain) and [Bersun](https://github.com/Rverdoc) for MDISEC community. You can find more articles on [github](https://github.com/mdisec/topluluk-makale).
 
 Steganography is the science of hiding information within cover objects. The main purpose of this process is to convey the message to the person to whom the data is to be delivered without attracting the attention of third parties.
 
