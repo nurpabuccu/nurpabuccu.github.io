@@ -1,10 +1,8 @@
 ---
 layout: article
-title: iOS Test Ortamı
+title: iOS Uygulama Analiz Ortamı
 key: page-single
 ---
-
-# iOS Uygulama Analiz Ortamı
 
 Bu yazıda iOS uygulama pentesti veya iOS zararlı analizi yaparken kullanılabilecek bazı araçlardan bahsedeceğim. 
 
