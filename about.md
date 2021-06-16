@@ -30,4 +30,4 @@ titles:
 key: page-about
 ---
 
-Hello. Thank you for visiting my blog. I'm trying to improve myself in cyber security. I will share my experience as much as I can.
+Hello. Thank you for visiting. I'm interested in cyber security especially malware analysis, reverse engineering and threat hunting. I'll try to share my experience as much as I can.
