@@ -178,7 +178,7 @@ In the data in the resolved HTTP request, many personal and sensitive data on th
 
 #### Features
 
-Cerberus has the same capabilities as most other Android banking trojans, such as overlay attacks, SMS checking, and keylogging. The Trojan can also take advantage of keystrokes to expand its attack coverage.
+Cerberus has the same capabilities as most other Android banking trojans, such as overlay attacks, SMS checking. The Trojan can also take advantage of keystrokes to expand its attack coverage.
 
 - Overlaying: Dynamic (Local injects obtained from C2)
 - Keylogging
