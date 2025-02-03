@@ -23,11 +23,9 @@
       </div>
     </div>
     {%- include snippets/get-locale-string.html key='COPYRIGHT_DATES' -%}
-    {%- assign _locale_copyright_dates = __return -%}
+    {%- assign _locale_copyright_dates = __return | replace: '[YEAR]', site.time | date: "%Y" -%}
     <div class="site-info mt-2">
       <div>
-        {%- include snippets/get-locale-string.html key='COPYRIGHT_DATES' -%}
-        {%- assign _locale_copyright_dates = __return -%}
         © {{ site.title }} {{ _locale_copyright_dates }}
       </div>
     </div>
